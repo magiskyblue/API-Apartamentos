@@ -70,8 +70,8 @@ Para evitar exponer credenciales sensibles en el repositorio, la aplicación uti
      ```
 
 5. **Acceder a la aplicación:**
-   * **Interfaz Web (Dashboard):** `http://localhost:8080/`
-   * **URL Base de la API REST:** `http://localhost:8080/api`
+   * **Interfaz Web (Dashboard):** `http://localhost:8000/`
+   * **URL Base de la API REST:** `http://localhost:8000/api`
 
 ---
 
