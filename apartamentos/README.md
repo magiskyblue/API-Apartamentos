@@ -25,7 +25,7 @@ Para evitar exponer credenciales sensibles en el repositorio, la aplicación uti
 | `DB_URL` | URL de conexión JDBC para MySQL | `jdbc:mysql://localhost:3306/apartamentos_db` |
 | `DB_USERNAME` | Usuario de la base de datos MySQL | `root` |
 | `DB_PASSWORD` | Contraseña del usuario de MySQL | `tu_password_seguro` |
-| `SERVER_PORT` | Puerto HTTP donde se ejecutará la aplicación | `8080` |
+| `SERVER_PORT` | Puerto HTTP donde se ejecutará la aplicación | `8000` |
 
 ---
 
@@ -49,14 +49,14 @@ Para evitar exponer credenciales sensibles en el repositorio, la aplicación uti
      $env:DB_URL="jdbc:mysql://localhost:3306/apartamentos_db"
      $env:DB_USERNAME="root"
      $env:DB_PASSWORD="tu_password"
-     $env:SERVER_PORT="8080"
+     $env:SERVER_PORT="8000"
      ```
    * **En Linux / macOS:**
      ```bash
      export DB_URL="jdbc:mysql://localhost:3306/apartamentos_db"
      export DB_USERNAME="root"
      export DB_PASSWORD="tu_password"
-     export DB_SERVER_PORT="8080"
+     export DB_SERVER_PORT="8000"
      ```
 
 4. **Compilar y ejecutar el proyecto con Maven Wrapper:**
